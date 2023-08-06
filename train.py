@@ -4,10 +4,10 @@ import torch
 print(torch.cuda.is_available())
 print(torch.cuda.get_device_name())
 # train_file_path = "/content/drive/MyDrive/ColabNotebooks/data/chatbot_docs/combined_text/full_text/train.txt"
-train_file_path = "medium.txt"
+train_file_path = "recipesToTrain.txt"
 model_name = 'gpt2'
 # output_dir = '/content/drive/MyDrive/ColabNotebooks/models/chat_models/custom_full_text'
-output_dir = './gptt4'
+output_dir = './gpt'
 overwrite_output_dir = True
 per_device_train_batch_size = 8
 num_train_epochs = 50.0

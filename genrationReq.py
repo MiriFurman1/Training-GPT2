@@ -5,7 +5,7 @@ import torch
 #
 print(torch.cuda.is_available())
 
-model1_path = "./gptt4"
-sequence1 = "generate one random recipe containing cereal. A recipe contains title, categories, servings, ingredients,  directions. When you generate '##' stop"
+model1_path = "./gpt"
+sequence1 = "recipe sugar. title"
 max_len = 1000
 generate_text(model1_path, sequence1, max_len)
